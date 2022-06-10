@@ -1,30 +1,24 @@
 # Count Words
 
-[![Code Coverage](https://codecov.io/gh/UltiRequiem/add_params/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/add_params)
-[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/add_params/mod.ts)
+[![Code Coverage](https://codecov.io/gh/UltiRequiem/count_words/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
+[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/count_words/mod.ts)
 
-Add [Query Parameters](https://wikipedia.org/wiki/Query_string) to an URL.
+Precisely count words.
 
 ## Usage
 
 The API is the same on all this platforms ✔️
 
-### [Deno 🦕](https://deno.land/x/add_params)
+### [Deno 🦕](https://deno.land/x/count_words)
 
 ```javascript
-import { addParams } from "https://deno.land/x/add_params/mod.ts";
-
-addParams("https://ultirequiem.com", { page: 33, author: "Me", share: false });
-//=> https://ultirequiem.com/?page=33&author=Me&share=false
-
-addParams(new URL("/api", "https://example.com"), { day: 2 });
-//=> https://example.com/api?day=2
+import { countWords } from "https://deno.land/x/count_words/mod.ts";
 ```
 
 ### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/add-params)
 
 ```javascript
-import { driveLink } from "@ultirequiem/add-params";
+import { countWords } from "count-n-words";
 ```
 
 ### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
@@ -65,7 +59,7 @@ participated in this project ✨
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org). For the versions available, see
-the [tags](https://github.com/UltiRequiem/add_params/tags) 🏷️
+the [tags](https://github.com/UltiRequiem/count_words/tags) 🏷️
 
 ## Licence
 
