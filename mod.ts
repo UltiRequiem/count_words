@@ -1,9 +1,13 @@
 export function countWords(text: string, separetor = " "): number {
+  let count = 1;
+
+  // TODO: @ultirequiem should be able to remove this working with state
+  // This is fasth enough tho
+  text = text.trim();
+
   if (text.length === 0) {
     return 0;
   }
-
-  let count = 1;
 
   let previous = "";
 
@@ -21,9 +25,7 @@ export function countWords(text: string, separetor = " "): number {
     }
 
     count++;
-
   }
-
 
   return count;
 }
