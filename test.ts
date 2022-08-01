@@ -1,6 +1,6 @@
 import { countWords } from "./mod.ts";
 
-import { assertEquals } from "https://deno.land/std@0.146.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.150.0/testing/asserts.ts";
 
 Deno.test("Main", () => {
   assertEquals(countWords("Hey, my name is Eliaz."), 5);
