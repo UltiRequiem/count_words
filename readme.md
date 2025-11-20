@@ -3,7 +3,8 @@
 [![Code Coverage](https://codecov.io/gh/UltiRequiem/count_words/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/count_words/mod.ts)
 
-A lightweight JavaScript/TypeScript library to count words in a string. It handles multiple consecutive spaces correctly and is Unicode-aware.
+A lightweight JavaScript/TypeScript library to count words in a string. It
+handles multiple consecutive spaces correctly and is Unicode-aware.
 
 ## Features
 
@@ -41,12 +42,13 @@ You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) ðŸ
 ```html
 <script type="module">
   import { countWords } from "https://cdn.skypack.dev/count-n-words";
-  
+
   console.log(countWords("Hello World")); // 2
 </script>
 ```
 
 **Other CDN options:**
+
 - [SkyPack](https://cdn.skypack.dev/count-n-words)
 - [JSDelivr](https://cdn.jsdelivr.net/npm/count-n-words)
 
@@ -59,7 +61,8 @@ Counts the number of words in a string.
 #### Parameters
 
 - `text` (string): The text to count words in
-- `separator` (string, optional): The separator between words. Defaults to `" "` (space)
+- `separator` (string, optional): The separator between words. Defaults to `" "`
+  (space)
 
 #### Returns
 
