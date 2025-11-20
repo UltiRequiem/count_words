@@ -3,38 +3,91 @@
 [![Code Coverage](https://codecov.io/gh/UltiRequiem/count_words/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
 [![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/count_words/mod.ts)
 
-Precisely count words.
+A lightweight JavaScript/TypeScript library to count words in a string. It handles multiple consecutive spaces correctly and is Unicode-aware.
 
-## Usage
+## Features
 
-The API is the same on all this platforms ✔️
+- ✨ Simple and intuitive API
+- 🚀 Fast and efficient word counting
+- 🔧 Handles multiple consecutive spaces
+- 🌍 Unicode-aware
+- 📦 Works with Deno, Node.js, and browsers
+- 🎯 Zero dependencies
+
+## Quick Start
 
 ### [Deno 🦕](https://deno.land/x/count_words)
 
-```javascript
+```typescript
 import { countWords } from "https://deno.land/x/count_words/mod.ts";
+
+console.log(countWords("Hello World")); // 2
+console.log(countWords("The quick brown fox")); // 4
 ```
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/add-params)
+### [Node.js 🐢🚀](https://npmjs.com/package/count-n-words)
 
 ```javascript
 import { countWords } from "count-n-words";
+
+console.log(countWords("Hello World")); // 2
+console.log(countWords("The quick brown fox")); // 4
 ```
 
 ### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
 
-Eg 👉
-[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ↔️
-[SkyPack](https://cdn.skypack.dev/@ultirequiem/add-params) 🆚
-[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
-↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/add-params)
+```html
+<script type="module">
+  import { countWords } from "https://cdn.skypack.dev/count-n-words";
+  
+  console.log(countWords("Hello World")); // 2
+</script>
+```
+
+**Other CDN options:**
+- [SkyPack](https://cdn.skypack.dev/count-n-words)
+- [JSDelivr](https://cdn.jsdelivr.net/npm/count-n-words)
+
+## API Reference
+
+### `countWords(text: string, separator?: string): number`
+
+Counts the number of words in a string.
+
+#### Parameters
+
+- `text` (string): The text to count words in
+- `separator` (string, optional): The separator between words. Defaults to `" "` (space)
+
+#### Returns
+
+- (number): The number of words found in the text
+
+#### Examples
+
+```typescript
+// Basic usage
+countWords("Hello World"); // 2
+countWords("Hey, my name is Eliaz."); // 5
+
+// Handles multiple spaces
+countWords("Hello        World"); // 2
+countWords("  Hey  "); // 1
+
+// Empty strings
+countWords(""); // 0
+countWords("   "); // 0
+
+// Custom separator
+countWords("apple,banana,orange", ","); // 3
+```
 
 ## Documentation
 
-Is hosted on
-[Deno Doc](https://doc.deno.land/https://deno.land/x/add_params/mod.ts) 📄
+Full API documentation is hosted on
+[Deno Doc](https://doc.deno.land/https://deno.land/x/count_words/mod.ts) 📄
 
 ## Support
 
@@ -53,7 +106,7 @@ Don't forget to start the repo ⭐
 [Eliaz Bobadilla](https://ultirequiem.com) - Creator and Maintainer 💪
 
 See also the full list of
-[contributors](https://github.com/UltiRequiem/add_params/contributors) who
+[contributors](https://github.com/UltiRequiem/count_words/contributors) who
 participated in this project ✨
 
 ## Versioning
