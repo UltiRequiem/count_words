@@ -1,3 +1,22 @@
+/**
+ * Counts the number of words in a string.
+ *
+ * This function counts words by splitting on a separator (default is space).
+ * It handles multiple consecutive separators correctly and trims whitespace.
+ *
+ * @param text - The text to count words in
+ * @param separetor - The separator between words (default: " ")
+ * @returns The number of words found in the text
+ *
+ * @example
+ * ```ts
+ * countWords("Hello World"); // 2
+ * countWords("Hey, my name is Eliaz."); // 5
+ * countWords("  Hello    World  "); // 2
+ * countWords(""); // 0
+ * countWords("apple,banana,orange", ","); // 3
+ * ```
+ */
 export function countWords(text: string, separetor = " "): number {
   let count = 1;
 
