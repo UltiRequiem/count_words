@@ -10,31 +10,12 @@ handles multiple consecutive spaces correctly and is Unicode-aware.
 
 ## Quick Start
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/count-words)
-
 ```typescript
 import { countWords } from "@ultirequiem/count-words";
 
 console.log(countWords("Hello World")); // 2
 console.log(countWords("The quick brown fox")); // 4
 ```
-
-### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
-
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
-
-```html
-<script type="module">
-  import { countWords } from "https://cdn.skypack.dev/@ultirequiem/count-words";
-
-  console.log(countWords("Hello World")); // 2
-</script>
-```
-
-**Other CDN options:**
-
-- [SkyPack](https://cdn.skypack.dev/@ultirequiem/count-words)
-- [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/count-words)
 
 ## API Reference
 
