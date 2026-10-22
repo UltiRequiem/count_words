@@ -1,7 +1,6 @@
 # Count Words
 
 [![Code Coverage](https://codecov.io/gh/UltiRequiem/count_words/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
-[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/count_words/mod.ts)
 
 A lightweight JavaScript/TypeScript library to count words in a string. It
 handles multiple consecutive spaces correctly and is Unicode-aware.
@@ -17,18 +16,9 @@ handles multiple consecutive spaces correctly and is Unicode-aware.
 
 ## Quick Start
 
-### [Deno 🦕](https://deno.land/x/count_words)
-
-```typescript
-import { countWords } from "https://deno.land/x/count_words/mod.ts";
-
-console.log(countWords("Hello World")); // 2
-console.log(countWords("The quick brown fox")); // 4
-```
-
 ### [Node.js 🐢🚀](https://npmjs.com/package/count-n-words)
 
-```javascript
+```typescript
 import { countWords } from "count-n-words";
 
 console.log(countWords("Hello World")); // 2
@@ -98,9 +88,6 @@ Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
-
-Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
-my work 🙏
 
 Don't forget to start the repo ⭐
 
