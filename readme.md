@@ -1,12 +1,13 @@
 # Count Words
 
-A lightweight JavaScript/TypeScript library to count words in a string. It
+Count the words in a string.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/count-words?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/count-words)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/count-words?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/count-words)
 [![CI](https://github.com/UltiRequiem/count_words/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/count_words/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/count_words/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
 
+A lightweight JavaScript/TypeScript library to count words in a string. It
 handles multiple consecutive spaces correctly and is Unicode-aware.
 
 ## Quick Start
