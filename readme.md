@@ -1,6 +1,9 @@
 # Count Words
 
-[![Code Coverage](https://codecov.io/gh/UltiRequiem/count_words/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/count-words?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/count-words)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/count-words?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/count-words)
+[![CI](https://github.com/UltiRequiem/count_words/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/count_words/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/count_words/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/count_words)
 
 A lightweight JavaScript/TypeScript library to count words in a string. It
 handles multiple consecutive spaces correctly and is Unicode-aware.
@@ -16,10 +19,10 @@ handles multiple consecutive spaces correctly and is Unicode-aware.
 
 ## Quick Start
 
-### [Node.js 🐢🚀](https://npmjs.com/package/count-n-words)
+### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/count-words)
 
 ```typescript
-import { countWords } from "count-n-words";
+import { countWords } from "@ultirequiem/count-words";
 
 console.log(countWords("Hello World")); // 2
 console.log(countWords("The quick brown fox")); // 4
@@ -31,7 +34,7 @@ You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) �
 
 ```html
 <script type="module">
-  import { countWords } from "https://cdn.skypack.dev/count-n-words";
+  import { countWords } from "https://cdn.skypack.dev/@ultirequiem/count-words";
 
   console.log(countWords("Hello World")); // 2
 </script>
@@ -39,8 +42,8 @@ You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) �
 
 **Other CDN options:**
 
-- [SkyPack](https://cdn.skypack.dev/count-n-words)
-- [JSDelivr](https://cdn.jsdelivr.net/npm/count-n-words)
+- [SkyPack](https://cdn.skypack.dev/@ultirequiem/count-words)
+- [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/count-words)
 
 ## API Reference
 
@@ -84,12 +87,12 @@ Full API documentation is hosted on
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
 
-Don't forget to start the repo ⭐
+Don't forget to star the repo ⭐
 
 ## Authors
 
