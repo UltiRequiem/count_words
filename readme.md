@@ -8,15 +8,6 @@
 A lightweight JavaScript/TypeScript library to count words in a string. It
 handles multiple consecutive spaces correctly and is Unicode-aware.
 
-## Features
-
-- ✨ Simple and intuitive API
-- 🚀 Fast and efficient word counting
-- 🔧 Handles multiple consecutive spaces
-- 🌍 Unicode-aware
-- 📦 Works with Deno, Node.js, and browsers
-- 🎯 Zero dependencies
-
 ## Quick Start
 
 ### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/count-words)
@@ -79,11 +70,6 @@ countWords("   "); // 0
 // Custom separator
 countWords("apple,banana,orange", ","); // 3
 ```
-
-## Documentation
-
-Full API documentation is hosted on
-[Deno Doc](https://doc.deno.land/https://deno.land/x/count_words/mod.ts) 📄
 
 ## Support
 
